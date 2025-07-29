@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: slategray;
+    min-height: 90vh;
+    padding: 20px;
+    color: #333;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: steelblue;
+    border-radius: 10px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
+    overflow: hidden;
+}
