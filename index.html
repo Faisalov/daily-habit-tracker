@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container">
+    <div class="container">
+      <H1>My Habits</H1>
       <input id="input" type="text" placeholder="Add Your Habit">
-      <button id="btn">Add</button>
+      <button id="addBtn" onclick="addHabit()">Add</button>
+      <ul id="add-habit"></ul>
+      <button id="removeBtn" onclick="clearHabit()">Clear All</button>
     </div>
     <script src="script.js"></script>
   </body>

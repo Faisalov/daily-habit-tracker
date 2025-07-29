@@ -2,13 +2,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background: slategray;
     min-height: 90vh;
     padding: 20px;
     color: #333;
 }
 
-#container {
+.container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 25px;
@@ -27,7 +28,15 @@ body {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-#btn {
+#addBtn {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#removeBtn {
     margin: 5px;
     padding: 15px;
     border-radius: 15px;
