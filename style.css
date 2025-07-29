@@ -17,3 +17,28 @@ body {
     /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
     overflow: hidden;
 }
+
+#input {
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#btn {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#input:hover {
+    background-color: #ccd;
+}
+
+#btn:hover {
+    background-color: #ccd;
+}
