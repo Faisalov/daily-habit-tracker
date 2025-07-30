@@ -18,7 +18,7 @@ function showHabits() {
 
     habits.forEach((habit, index) => {
         const li = document.createElement("li");
-        li.innerHTML = `${habit} <button onclick="removeHabit()">Remove Habit</button>`;
+        li.innerHTML = `${habit}<button onclick="removeHabit()">Remove Habit</button>`;
         li.id = "liBtn";
         habitList.appendChild(li);
     });
